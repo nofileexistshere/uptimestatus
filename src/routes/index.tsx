@@ -13,9 +13,9 @@ const REFETCH_INTERVAL = 60_000;
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "System Status — VPN Fornexteam" },
+      { title: "System Status - VPN Fornexteam" },
       { name: "description", content: "Real-time status of VPN Fornexteam services." },
-      { property: "og:title", content: "System Status — VPN Fornexteam" },
+      { property: "og:title", content: "System Status - VPN Fornexteam" },
     ],
   }),
   loader: async () => {

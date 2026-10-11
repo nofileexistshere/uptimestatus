@@ -77,7 +77,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "System Status — VPN Fornexteam" },
+      { title: "System Status - VPN Fornexteam" },
       { name: "description", content: "Real-time uptime monitoring for VPN Fornexteam services." },
       { name: "author", content: "VPN Fornexteam" },
       { name: "theme-color", content: "#0f1117" },
@@ -87,7 +87,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "apple-mobile-web-app-title", content: "VPN Fornexteam" },
       // Open Graph
       { property: "og:type", content: "website" },
-      { property: "og:title", content: "System Status — VPN Fornexteam" },
+      { property: "og:title", content: "System Status - VPN Fornexteam" },
       { property: "og:description", content: "Real-time uptime monitoring for VPN Fornexteam services." },
       { property: "og:image", content: "/logo.png" },
       { property: "og:image:width", content: "512" },
@@ -96,7 +96,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:url", content: "https://status-vpn.fornexteam.com" },
       // Twitter Card
       { name: "twitter:card", content: "summary" },
-      { name: "twitter:title", content: "System Status — VPN Fornexteam" },
+      { name: "twitter:title", content: "System Status - VPN Fornexteam" },
       { name: "twitter:description", content: "Real-time uptime monitoring for VPN Fornexteam services." },
       { name: "twitter:image", content: "/logo.png" },
     ],
